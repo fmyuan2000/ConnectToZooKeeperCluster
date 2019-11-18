@@ -1,0 +1,9 @@
+#mybatis配置
+mybatis:
+  mapper-locations: classpath:mapper/*Mapper.xml
+  type-aliases-package: com.carry.domain
+#数据源
+
+zookeeper:
+  address: 172.18.0.69:2181,172.18.0.71:2181,172.18.0.72:2181
+  timeout: 4000
