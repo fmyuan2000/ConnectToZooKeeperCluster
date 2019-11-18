@@ -27,8 +27,9 @@
         <dependency>
             <groupId>org.apache.zookeeper</groupId>
             <artifactId>zookeeper</artifactId>
-            <version>3.4.12</version>
+            <version>3.5.6</version>
         </dependency>
+
         <!--需要引入该jar才能使bootstrap配置文件生效-->
         <!-- https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-context -->
         <dependency>
